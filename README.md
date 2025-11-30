@@ -33,6 +33,10 @@ sudo systemctl start docker
 ```
 sudo systemctl enable docker
 ```
-## 1.2Mac
+## 1.2 Mac
 进入项目的Release，下载Mac系统的安装包<br>
 https://github.com/tech-shrimp/docker_installer/releases
+![](images/mac安装包.png)
+注意区分CPU架构类型 Intel芯片选择x86_64, 苹果芯片选择arm64<br>
+下载好双击安装即可
+## 1.3 Windows
