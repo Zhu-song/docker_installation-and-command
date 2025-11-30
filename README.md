@@ -33,3 +33,6 @@ sudo systemctl start docker
 ```
 sudo systemctl enable docker
 ```
+## 1.2Mac
+进入项目的Release，下载Mac系统的安装包<br>
+https://github.com/tech-shrimp/docker_installer/releases
