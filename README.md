@@ -11,3 +11,25 @@
 
 作者：**[技术爬爬虾](https://github.com/tech-shrimp/me)**<br>
 B站，抖音，Youtube全网同名，转载请注明作者<br>
+# docker安装
+## 1.1 Linux
+一键安装命令
+```
+sudo curl -fsSL https://get.docker.com| bash -s docker --mirror Aliyun
+```
+备用命令（每天自动从官网定时同步）
+```
+sudo curl -fsSL https://github.com/tech-shrimp/docker_installer/releases/download/latest/linux.sh| bash -s docker --mirror Aliyun
+```
+> 备用2（如果Github访问不了，可以使用Gitee的链接）<br>
+```
+sudo curl -fsSL https://gitee.com/tech-shrimp/docker_installer/releases/download/latest/linux.sh| bash -s docker --mirror Aliyun
+```
+启动docker
+```
+sudo systemctl start docker
+```
+开机自启
+```
+sudo systemctl enable docker
+```
